@@ -6,9 +6,9 @@ const ProjectList = ({projects}) => (
         {projects.map((project) => (
             <>
                 <span className="accent">{project.category}</span>
-                <h3>{project.name}</h3>
+                <h3 id={project.id}>{project.name}</h3>
                 <Link to={project.link} target="_blank">
-                    <figure className="project-tile"></figure>
+                    <figure className={`project-tile ${project.id}`}></figure>
                 </Link>
                 <p>{project.text}</p>
             </>

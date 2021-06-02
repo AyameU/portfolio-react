@@ -1,5 +1,6 @@
 import React from 'react';
-import Portfolio from '../components/Portfolio.js';
+import Portfolio from '../components/Portfolio';
+import Footer from '../components/Footer';
 
 const Home = () => (
     <>
@@ -13,6 +14,7 @@ const Home = () => (
 			</section>
             <Portfolio />
 		</main>
+        <Footer />
     </>
 );
 
