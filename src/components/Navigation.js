@@ -2,7 +2,12 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 const Navigation = ({projects}) => (
-    <nav className="Navbar__Items--right social flex-center">
+    <div id="navbar" class="navbar flex-center">
+        <div class="navbar__Link navbar__Link-toggle">
+            <i class="fas fa-bars">Menu</i>
+        </div>
+
+    <nav className="Navbar__Items social flex-center">
         <ul>
             <li className="navbar__link"><Link to="/">Home</Link></li>
         {projects.map((project) => (
@@ -10,6 +15,8 @@ const Navigation = ({projects}) => (
         ))}
         </ul>
     </nav>
+
+    </div>
 );
 
 export default Navigation;
