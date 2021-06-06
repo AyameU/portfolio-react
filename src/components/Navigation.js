@@ -10,9 +10,15 @@ const Navigation = ({projects}) => (
     <nav className="Navbar__Items social flex-center">
         <ul>
             <li className="navbar__link"><Link to="/">Home</Link></li>
-        {projects.map((project) => (
-            <li className="navbar__link"><Link to={`#${project.id}`}>{project.name}</Link></li>
-        ))}
+            <li className="navbar__link"><Link to="/">About Me</Link></li>
+            <li className="navbar__link"><Link to="/">Projects</Link></li>
+            <ul>
+                {projects.map((project) => (
+                <li className="navbar__link"><Link to={`#${project.id}`}>{project.name}</Link></li>
+                ))}
+            </ul>
+            <li className="navbar__link"><Link to="/">Design</Link></li>
+            <li className="navbar__link"><Link to="/">Get in Touch</Link></li>
         </ul>
     </nav>
 

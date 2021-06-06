@@ -1,12 +1,10 @@
-import React from 'react';
-
 const Projects = [
     {
         "id": "project1",
-        "name": "Project 1",
-        "category": "Website",
-        "text": "This is some test text about this project.",
-        "link": "http://google.com"
+        "name": "RTX Unicorn",
+        "category": "Website // HTML, CSS, JS",
+        "text": "Parody website for an ultra rare GPU line-up. A tongue-in-cheek take on the state of the GPU market.",
+        "link": "https://unicorn.ayamekea.com"
     },
     {
         "id": "project2",

@@ -1,8 +1,12 @@
 import React from 'react';
-import Navigation from '../components/Navigation.js';
-import Portfolio from '../components/Portfolio';
-import Footer from '../components/Footer';
+import About from './About';
+import Portfolio from './Portfolio';
+import Design from './Design';
+import Contact from './Contact';
 import TestData from './TestData';
+import Navigation from '../components/Navigation.js';
+import Footer from '../components/Footer';
+
 
 const Home = () => (
     <>
@@ -15,7 +19,10 @@ const Home = () => (
 				</header>
 				<figure className="welcome"></figure>
 			</section>
+			<About />
             <Portfolio />
+			<Design />
+			<Contact />
 		</main>
         <Footer />
     </>
