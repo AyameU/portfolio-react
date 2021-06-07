@@ -4,10 +4,10 @@ import Home from './sections/Home.js';
 
 function App() {
   return (
-    <Router>
-      <div className="App" extends Component>
-        <Switch>
-          <Route path="/" component={Home} exact />
+    <Router basename={"/portfolio-react"}>
+      <div className="App">
+      <Switch>
+          <Route path="/" component={Home} />
         </Switch>
       </div>
     </Router>

@@ -1,28 +1,34 @@
 import React from 'react';
+import {HashLink} from 'react-router-hash-link';
 import {Link} from 'react-router-dom';
 
 const Navigation = ({projects}) => (
-    <div id="navbar" class="navbar flex-center">
-        <div class="navbar__Link navbar__Link-toggle">
-            <i class="fas fa-bars">Menu</i>
+    <div id="navbar" className="navbar flex-center">
+        <div className="navbar__Link navbar__Link-toggle" onClick={classToggle}>
+            <i className="fas fa-bars">Menu</i>
         </div>
 
-    <nav className="Navbar__Items social flex-center">
-        <ul>
-            <li className="navbar__link"><Link to="/">Home</Link></li>
-            <li className="navbar__link"><Link to="/">About Me</Link></li>
-            <li className="navbar__link"><Link to="/">Projects</Link></li>
+        <nav className="navbar__Items social flex-center">
             <ul>
-                {projects.map((project) => (
-                <li className="navbar__link"><Link to={`#${project.id}`}>{project.name}</Link></li>
-                ))}
+                <li className="navbar__link"><Link to="/">Hello</Link></li>
+                <li className="navbar__link"><HashLink to="#projects">Projects</HashLink></li>
+                <ul className="sub-menu">
+                    {projects.map((project) => (
+                    <li className="navbar__link"><HashLink to={`#${project.id}`}>{project.name}</HashLink></li>
+                    ))}
+                </ul>
+                <li className="navbar__link"><HashLink to="#design">Design</HashLink></li>
+                <li className="navbar__link"><HashLink to="#contact">Get in Touch</HashLink></li>
             </ul>
-            <li className="navbar__link"><Link to="/">Design</Link></li>
-            <li className="navbar__link"><Link to="/">Get in Touch</Link></li>
-        </ul>
-    </nav>
+        </nav>
 
     </div>
 );
+
+function classToggle() {
+    const navs = document.querySelectorAll('.navbar__Items')
+
+    navs.forEach(nav => nav.classList.toggle('navbar__ToggleShow'));
+}
 
 export default Navigation;

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Design = () => (
     <>
-        <section>
+        <section id="design">
             <header className="section-header">
 				<span className="accent">// Pretty Things</span>
 				<h3>Design</h3>
@@ -14,7 +14,7 @@ const Design = () => (
     	        <li><span role="img" aria-label="magazine">&#x1F4D3;</span> 20+ magazines ranging from trade publications to wedding magazines.</li>
                 <li><span role="img" aria-label="newspaper">&#x1F4F0;</span> Designed <a href="https://www.uniter.ca" target="_blank">The Uniter's</a> website (sadly changed since then) and weekly print newspaper from 2010-2014.</li>
         	</ul>
-            <h3>Clients</h3>
+            <h4>Clients</h4>
             <p>I designed/coded the front-end of the websites for the following clients:</p>
             <ul>
                 <li>Wonderful Wedding Show | <a href="https://wonderfulweddingshow.com/" target="_blank" title="The Wonderful Wedding Show">Website</a></li>

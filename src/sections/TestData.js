@@ -8,16 +8,23 @@ const Projects = [
     },
     {
         "id": "project2",
-        "name": "Project 2",
+        "name": "Personal Portfolio v1",
         "category": "Website",
-        "text": "This is some test text about this project.",
-        "link": "http://twitter.com"
+        "text": "This is the first version of my personal portfolio. Built with HTML, CSS and JavaScript.",
+        "link": "https://ayamekea.com"
     },
     {
         "id": "project3",
         "name": "Project 3",
         "category": "Website",
-        "text": "This is some test text about this project.",
+        "text": "This is some test text about this project. Three lines or so to look the same as the other ones.",
+        "link": "http://reddit.com"
+    },
+    {
+        "id": "project4",
+        "name": "Project 4",
+        "category": "Website",
+        "text": "This is some test text about this project. Three lines or so to look the same as the other ones.",
         "link": "http://reddit.com"
     }
 ];
