@@ -7,8 +7,7 @@ const Contact = () => (
 				<span className="accent">// Contact</span>
 				<h3>Get in Touch</h3>
 			</header>
-            <p>A cool form will go here.</p>
-            <form action="">
+            <form action="#" method="">
                 <label>Name*
                 <input type="text"></input>
                 </label>
