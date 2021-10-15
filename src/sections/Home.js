@@ -2,14 +2,14 @@ import React from 'react';
 import Portfolio from './Portfolio';
 import Design from './Design';
 import Contact from './Contact';
-import TestData from './TestData';
+import PortfolioData from './PortfolioData';
 import Navigation from '../components/Navigation.js';
 import Footer from '../components/Footer';
 
 
 const Home = () => (
     <>
-        <Navigation projects={TestData}/>
+        <Navigation projects={PortfolioData}/>
         <main>
 			<section id="welcome-section">
 				<header>
