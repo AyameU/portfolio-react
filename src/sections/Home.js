@@ -27,7 +27,6 @@ const Home = () => (
 			</section>
             <Portfolio />
 			<Design />
-			<Contact />
 		</main>
         <Footer />
     </>
