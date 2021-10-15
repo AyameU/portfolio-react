@@ -18,7 +18,6 @@ const Navigation = ({projects}) => (
                     ))}
                 </ul>
                 <li className="navbar__link"><HashLink to="#design">Design</HashLink></li>
-                <li className="navbar__link"><HashLink to="#contact">Get in Touch</HashLink></li>
             </ul>
         </nav>
 
