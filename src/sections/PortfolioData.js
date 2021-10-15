@@ -4,7 +4,7 @@ const Projects = [
         "name": "Historical Resources",
         "category": "Website // Open Data, JS, HTML, Bulma",
         "text": "Uses the City of Winnipeg's Historical Resources Open Data API to retrieve records based on a street address.",
-        "link": "https://ayamekea.com",
+        "link": "https://historicalresources.ayamekea.com",
         "image": "",
     },
     {
