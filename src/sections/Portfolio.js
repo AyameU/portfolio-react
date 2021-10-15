@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectList from '../components/ProjectList';
-import TestData from './TestData';
+import PortfolioData from './PortfolioData';
 
 const Portfolio = () => (
     <>
@@ -11,7 +11,7 @@ const Portfolio = () => (
 			</header>
 
 			<div className="grid">
-				<ProjectList projects={TestData} />
+				<ProjectList projects={PortfolioData} />
 			</div>
 		</section>
     </>
