@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 
 const ProjectList = ({projects}) => (
     <>
@@ -8,9 +7,9 @@ const ProjectList = ({projects}) => (
                 <span className="accent">{project.category}</span>
                 <h4 id={project.id}>{project.name}</h4>
                 <p>{project.text}</p>
-                <Link to={project.link} target="_blank">
+                <a href={project.link} target="_blank" rel="noreferrer">
                     <figure className={`project-tile ${project.id}`}></figure>
-                </Link>
+                </a>
             </div>
         ))}
     </>
