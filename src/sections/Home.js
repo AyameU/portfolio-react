@@ -1,8 +1,8 @@
 import Portfolio from './Portfolio';
 import Design from './Design';
-import PortfolioData from './PortfolioData';
+import PortfolioData from '../data/PortfolioData';
 import Navigation from '../components/Navigation.js';
-import Footer from '../components/Footer';
+import Footer from './Footer';
 
 
 const Home = () => (

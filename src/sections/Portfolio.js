@@ -1,5 +1,5 @@
 import ProjectList from '../components/ProjectList';
-import PortfolioData from './PortfolioData';
+import PortfolioData from '../data/PortfolioData';
 
 const Portfolio = () => (
     <>
