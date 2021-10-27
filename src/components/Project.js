@@ -1,5 +1,3 @@
-import React from "react";
-
 const Project = ({ project }) => (
     <div id={project.id} className="project">
         <span className="accent">{project.category}</span>

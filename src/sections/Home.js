@@ -1,4 +1,3 @@
-import React from 'react';
 import Portfolio from './Portfolio';
 import Design from './Design';
 import PortfolioData from './PortfolioData';
