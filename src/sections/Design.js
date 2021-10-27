@@ -2,7 +2,6 @@ const Design = () => (
     <>
         <section id="design">
             <header className="section-header">
-				<span className="accent">// Pretty Things</span>
 				<h3>Design</h3>
 			</header>
             <p>I was a graphic-slash-web-designer for 11 years. Some of the projects I worked on:</p>

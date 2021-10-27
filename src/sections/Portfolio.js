@@ -5,7 +5,6 @@ const Portfolio = () => (
     <>
         <section id="projects">
 			<header className="section-header">
-				<span className="accent">// freeCodeCamp</span>
 				<h3>Projects</h3>
 			</header>
 
