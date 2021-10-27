@@ -26,7 +26,7 @@ const Projects = [
     {
         "id": "project4",
         "name": "Personal Portfolio v1",
-        "category": "Website",
+        "category": "Website // HTML, CSS, JS",
         "text": "This is the first version of my personal portfolio. Built with HTML, CSS and a wee bit of JavaScript.",
         "link": "https://ayameu.github.io/Portfolio/",
         "image": "portfoliov1.png",
