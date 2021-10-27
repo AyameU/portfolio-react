@@ -1,4 +1,3 @@
-import React from 'react';
 import ProjectList from '../components/ProjectList';
 import PortfolioData from './PortfolioData';
 
@@ -10,9 +9,7 @@ const Portfolio = () => (
 				<h3>Projects</h3>
 			</header>
 
-			<div className="grid">
-				<ProjectList projects={PortfolioData} />
-			</div>
+			<ProjectList projects={PortfolioData} />
 		</section>
     </>
 );

@@ -1,18 +1,11 @@
-import React from 'react';
+import Project from "./Project";
 
-const ProjectList = ({projects}) => (
-    <>
+const ProjectList = ({ projects }) => (
+    <div className="grid">
         {projects.map((project) => (
-            <div id={project.id} className="project">
-                <span className="accent">{project.category}</span>
-                <h4 id={project.id}>{project.name}</h4>
-                <p>{project.text}</p>
-                <a href={project.link} target="_blank" rel="noreferrer">
-                    <figure className={`project-tile ${project.id}`}></figure>
-                </a>
-            </div>
+            <Project project={project} />
         ))}
-    </>
+    </div>
 );
 
 export default ProjectList;
